@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="com.chinasoft.logindemo.vo.C_coursePageBean" x="-7" y="829">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.po.C_course"
+            endpointName="data" kind="Simple"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.ApplicationBiz" x="35" y="4">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.Teacher2Dao" x="386" y="539">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.impl.ApplicationBizimpl"
+        x="-50" y="97">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.biz.ApplicationBiz"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.dao.ApplicationDao"
+            endpointName="appDao" kind="Simple"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.dao.ApplicationDao"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.impl.Teacher2Daoimpl"
+        x="443" y="715">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.dao.Teacher2Dao"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.po.Teacher2"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.impl.ProjectBizimpl"
+        x="-12" y="681">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.biz.ProjectBiz"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.dao.ProjectDao"
+            endpointName="projectDao" kind="Simple"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.dao.ProjectDao"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.Teacher1Dao" x="36" y="273">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.impl.CourseBizimpl" x="829" y="-24">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.biz.CourseBiz"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.dao.CourseDao"
+            endpointName="courseDao" kind="Simple"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.vo.CoursePageBean"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.dao.CourseDao"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.vo.CoursePageBean" x="684" y="980">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.po.Course"
+            endpointName="data" kind="Simple"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.ProjectBiz" x="315" y="702">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.po.C_course" x="226" y="813">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.Teacher1Biz" x="508" y="273">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.ProjectDao" x="-11" y="540">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.po.Teacher2" x="535" y="977">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.impl.Teacher1Daoimpl"
+        x="-8" y="381">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.dao.Teacher1Dao"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.impl.C_courseBizimpl"
+        x="377" y="-24">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.biz.C_courseBiz"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.dao.C_courseDao"
+            endpointName="c_courseDao" kind="Simple"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.dao.C_courseDao"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.vo.C_coursePageBean"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.impl.C_courseDaoimpl"
+        x="657" y="264">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.dao.C_courseDao"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.po.C_course"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.impl.Student2Bizimpl"
+        x="649" y="1220">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.biz.Student2Biz"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.dao.Student2Dao"
+            endpointName="userdao" kind="Simple"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.dao.Student2Dao"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.impl.Student1Bizimpl"
+        x="259" y="989">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.biz.Student1Biz"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.dao.Student1Dao"
+            endpointName="stDao" kind="Simple"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.dao.Student1Dao"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.Student1Biz" x="333" y="1132">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.C_courseBiz" x="205" y="5">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.ApplicationDao" x="28" y="201">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.Student2Dao" x="426" y="1232">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.po.Course" x="848" y="972">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.impl.Teacher1Bizimpl"
+        x="258" y="272">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.biz.Teacher1Biz"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.dao.Teacher1Dao"
+            endpointName="teacher1Dao" kind="Simple"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.dao.Teacher1Dao"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.impl.Student1Daoimpl"
+        x="-32" y="1116">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.dao.Student1Dao"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.Student2Biz" x="717" y="1109">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.C_courseDao" x="483" y="102">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.impl.Teacher2Bizimpl"
+        x="652" y="528">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.biz.Teacher2Biz"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.dao.Teacher2Dao"
+            endpointName="teacher2Dao" kind="Simple"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.dao.Teacher2Dao"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.vo.Teacher2PageBean"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.impl.ApplicationDaoimpl"
+        x="210" y="178">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.dao.ApplicationDao"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.CourseDao" x="675" y="81">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.Teacher2Biz" x="795" y="630">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.biz.CourseBiz" x="677" y="-5">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.impl.Student2Daoimpl"
+        x="-34" y="1215">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.dao.Student2Dao"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.impl.CourseDaoimpl" x="830" y="104">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.dao.CourseDao"/>
+        <Communication destinationClassName="com.chinasoft.logindemo.po.Course"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.vo.Teacher2PageBean" x="524" y="1121">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.chinasoft.logindemo.po.Teacher2"
+            endpointName="data" kind="Simple"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.Student1Dao" x="35" y="992">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.chinasoft.logindemo.dao.impl.ProjectDaoimpl"
+        x="115" y="517">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.chinasoft.logindemo.dao.ProjectDao"/>
+    </Class>
+</ClassDiagram>
